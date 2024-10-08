@@ -1,6 +1,6 @@
 // navlinks
 
-const navLinks = [
+export const navLinks = [
     {
         label: "Home",
         link: "£home"
@@ -8,7 +8,7 @@ const navLinks = [
     {
         label: "About",
         link: "about"
-    }
+    },
     {
         label: "Services",
         link: "£services"

@@ -1,5 +1,4 @@
-import { motion } from "framer-motion"
-import Hero from ".Components/Hero"
+import Hero from "./Components/Hero"
 
 export default function App() {
   return (

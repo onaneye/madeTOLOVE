@@ -1,0 +1,14 @@
+/* src/assets/fonts/fonts.css */
+@font-face {
+    font-family: 'Bodoni';
+    src: url('../fonts/bodoni_[allfont.net].ttf') format('ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica.ttf') format('ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}

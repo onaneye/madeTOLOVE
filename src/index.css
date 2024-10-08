@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-.width-container{
-    width: "900px"
+/* src/index.css or src/globals.css */
+@import './fonts/font.css';
+
+
+@layer components {
+  .width-container {
+    @apply lg:w-[1000px] xl:w-[1100px] md:w-[900px] container  mx-auto py-4;
+  }
+}
+
+.logo-container{
+  width: 60px;
+  height: 60px;
+}
+
+.logo-container img{
+  transform: scale(3);
 }
