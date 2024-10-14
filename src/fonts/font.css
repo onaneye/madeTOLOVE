@@ -1,7 +1,7 @@
 /* src/assets/fonts/fonts.css */
 @font-face {
-    font-family: 'Bodoni';
-    src: url('../fonts/bodoni_[allfont.net].ttf') format('ttf'); 
+    font-family: 'AlfaSlabOne';
+    src: url('../fonts/AlfaSlabOne-Regular.ttf') format('ttf'); 
     font-weight: normal;
     font-style: normal;
 }

@@ -6,11 +6,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        bodoni: ['Bodoni', 'serif'],        // Custom Bodoni font
+        alfaslabone: ['alfaslabone', 'serif'],        // Custom Bodoni font
         helvetica: ['Helvetica', 'Arial', 'sans-serif'], // Helvetica as a system font with fallbacks
       },
       fontSize: {
-        sm: ['16px', '20px'],    // Small: 16px font with 20px line height
+        xs: ['14px', '24px'],    // Small: 16px font with 20px line height
+        sm: ['16px', '24px'],    // Small: 16px font with 20px line height
         md: ['20px', '28px'],    // Medium: 20px font with 28px line height
         lg: ['24px', '32px'],    // Large: 24px font with 32px line height
         xl: ['30px', '36px'],    // Extra Large: 30px font with 36px line height

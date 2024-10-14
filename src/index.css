@@ -8,9 +8,10 @@
 
 @layer components {
   .width-container {
-    @apply lg:w-[1000px] xl:w-[1100px] md:w-[900px] container  mx-auto py-4;
+    @apply lg:w-[1000px] xl:w-[1100px] md:w-[900px] container  mx-auto px-2 py-2;
   }
 }
+
 
 .logo-container{
   width: 60px;
