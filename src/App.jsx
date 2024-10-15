@@ -10,7 +10,7 @@ import Footer from "./Components/Footer";
 
 export default function App() {
   return (
-    <main className="">
+    <main className="scroll-smooth">
       <Navbar/>
       <div className="relative">
       <Hero/>

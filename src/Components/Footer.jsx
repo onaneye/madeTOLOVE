@@ -17,16 +17,16 @@ const Footer = () => {
           <div className="w-full md:w-1/4 mb-6 container">
             <h3 className="text-xl font-semibold mb-4 text-white font-poppins-bold">About Us</h3>
             <p className="text-sm leading-relaxed font-Josefin_Sans">
-              We are a professional photography team dedicated to capturing your special moments with creativity and precision.
+              We are a professional  team dedicated to capturing your special moments with creativity and precision.
             </p>
           </div>
           {/* Contact Information */}
           <div className="w-full md:w-1/4 mb-6">
             <h3 className="text-xl font-semibold mb-4 text-white font-poppins-bold">Contact Us</h3>
             <ul className="space-y-2 font-Josefin_Sans">
-              <li className="text-sm">1234 Photography St, Photo City, PC 12345</li>
+              <li className="text-sm">1234 madetolove St, Photo City, PC 12345</li>
               <li className="text-sm">Phone: (123) 456-7890</li>
-              <li className="text-sm">Email: info@example.com</li>
+              <li className="text-sm">Email: info@madetolove.com</li>
             </ul>
           </div>
 
@@ -48,7 +48,7 @@ const Footer = () => {
 
         {/* Copyright Section */}
         <div className="border-t border-gray-200 pt-4 text-center text-sm">
-          <p className='font-Josefin_Sans'>&copy; {new Date().getFullYear()} Your Company. All Rights Reserved.</p>
+          <p className='font-Josefin_Sans'>&copy; {new Date().getFullYear()} Made To Love. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
