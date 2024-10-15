@@ -1,19 +1,31 @@
 import {pricing} from './constant'
 import PriceCard from './PriceCard'
+import { motion } from 'framer-motion'
+import { fadeIn } from './variants'
 
 const Offers = () => {
   return (
     <div className='mt-24'>
-        <div className="flex flex-col justify-center items-center">
+        <motion.div className="flex flex-col justify-center items-center px-3"
+         variants={fadeIn("down", 0.2)}
+         initial="hidden"
+         whileInView ={"show"}
+         viewport={{once:false, delay: 0.7}}
+        >
             <p className="text-center  uppercase text-sm font-bodoni text-gray-700">Our Offers</p>
-            <h3 className="text-3xl text-center  font-bold text-purple-500 font-bodoni lg:text-4xl capitalize">Check out for pricing</h3>
-        </div>
-        <div className='md:grid md:grid-cols-2 md:gap-2 lg:flex justify-center width-container gap-4 mt-12'>
+            <h3 className="text-2xl text-center  font-bold text-gray-600 font-bodoni lg:text-4xl capitalize">Check out for <span className='text-purple-500'>pricing</span></h3>
+        </ motion.div>
+        <motion.div className='md:grid md:grid-cols-2 md:gap-2 lg:flex justify-center width-container gap-4 mt-12'
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView ={"show"}
+          viewport={{once:false, delay: 0.7}}
+        >
             
             {pricing.map((item)=>(
                 <PriceCard {...item} />
             ))}
-        </div>
+        </ motion.div>
     </div>
   )
 }

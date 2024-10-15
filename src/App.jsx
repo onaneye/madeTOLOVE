@@ -12,8 +12,10 @@ export default function App() {
   return (
     <main className="">
       <Navbar/>
-      <div>
+      <div className="relative">
       <Hero/>
+      </div>
+      <div className="md:absolute w-full transform md:-bottom-16">
       <Values/>
       </div>
       <ServiceCard />

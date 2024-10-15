@@ -1,4 +1,5 @@
-import { faShield, faWallet, faCalendar, faGifts, faBasketShopping, faTruck } from "@fortawesome/free-solid-svg-icons"
+import { faShield, faWallet, faCalendar, faGifts, faBasketShopping, faTruck,  } from "@fortawesome/free-solid-svg-icons"
+import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 // navlinks
 export const navLinks = [
@@ -175,3 +176,60 @@ export const testimonials = [
         img: "https://example.com/images/sophia.jpg" // Replace with the actual image URL
     }
 ];
+
+export const socials =[
+    {
+        id:1,
+        name: "facebook",
+        icon: faFacebook,
+        link: "https://www.facebook.com"
+    },
+    {
+        id:2,
+        name: "instagram",
+        icon: faInstagram,
+        link: "https://www.facebook.com",
+    },
+    {
+        id:3,
+        name: "twitter",
+        icon: faTwitter,
+        link: "https://www.facebook.com",
+    }
+]
+
+export const  servicesContent = [
+    {
+        header: "our services",
+        span: "responsibilites",
+        text: "The that makes us stand out",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias deleniti consequatur numquam voluptates vitae officiis."
+    }
+]
+
+export const  aboutContent = [
+    {
+        header: "our offers",
+        span: "pricing",
+        text: "Check out for ",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias deleniti consequatur numquam voluptates vitae officiis."
+    }
+]
+
+export const  pricingContent = [
+    {
+        header: "our offers",
+        span: "pricing",
+        text: "Check out for ",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias deleniti consequatur numquam voluptates vitae officiis."
+    }
+]
+
+export const  TestimonialsContent = [
+    {
+        header: "Testimonials",
+        span : "1000+",
+        text: "Over people trust us",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias deleniti consequatur numquam voluptates vitae officiis."
+    }
+] 

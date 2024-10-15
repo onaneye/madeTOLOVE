@@ -13,8 +13,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className='py-2'>
-      <nav className="width-container  flex justify-between items-center border-b-2 p-2">
+    <div className='py-2 fixed bg-white z-50 w-full shadow-lg'>
+      <nav className="width-container  flex justify-between items-center border-b-2 ">
         {/* Logo */}
         <div className='logo-container ml-5'>
           <img src={logo2} alt="logo" className=''/> {/* Full width with automatic height */}
@@ -23,7 +23,7 @@ const Navbar = () => {
         {/* Navigation Links */}
         <ul className='hidden lg:flex items-center justify-between gap-8'>
           {navLinks.map((item) => (
-            <li key={item.id} className='text-purple-500 font-helvetica text-[16px]'>
+            <li key={item.id} className='text-purple-500 font-helvetica text-[16px] hover:bg-purple-500 hover:text-white p-2 rounded-full'>
               <a href={item.link}>
                 {item.label}
               </a>
@@ -40,7 +40,7 @@ const Navbar = () => {
         </button>
 
         <div className='lg:hidden mt-4 mx-6'  onClick={toggleMobileMenu}>
-        <FontAwesomeIcon icon={faBars} className='text-white text-xl cursor-pointer'/>
+        <FontAwesomeIcon icon={faBars} className='text-purple-500 text-xl cursor-pointer'/>
         </div>
         <ul className={`${isMobileMenuOpen? "block": "hidden"} z-10 absolute top-[5.9rem] bg-purple-500 p-0 w-full text-start  shadow-xl`}>
           {navLinks.map((item) => (

@@ -10,7 +10,7 @@ const ReviewCard = ({name, position, testimonial, img}) => {
             <div className="rounded-full bg-purple-500 w-16 h-16 flex justify-center items-center p-3 my-3">
                 <FontAwesomeIcon icon={faQuoteLeft}  className="text-white text-lg"/>
             </div>
-            <h3 className="text-gray-600 font-helvetica text-sm text-center md:text-start w-[400px]">
+            <h3 className="text-gray-600 font-helvetica text-sm text-center md:text-start lg:w-[400px]">
                 {testimonial}
             </h3>
             <div className="flex justify-start">

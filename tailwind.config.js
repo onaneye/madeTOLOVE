@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        alfaslabone: ['alfaslabone', 'serif'],        // Custom Bodoni font
+        'alfa-slab': ['Alfa Slab One', 'normal'],        // Custom Bodoni font
         helvetica: ['Helvetica', 'Arial', 'sans-serif'], // Helvetica as a system font with fallbacks
       },
       fontSize: {
