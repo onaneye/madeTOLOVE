@@ -13,6 +13,12 @@ import skin2 from './skin2.png'
 // logo 2
 import logo2 from './logo2.png'
 
+// testmonial images
+
+import deji from './deji.jpeg'
+import benitah from './benitah.jpeg'
+import bukola from './bukola.jpeg'
+
 export {
     serviceImg1,
     serviceImg2,
@@ -22,4 +28,7 @@ export {
     skin2,
     logo2,
     personService,
+    deji,
+    benitah,
+    bukola
 }

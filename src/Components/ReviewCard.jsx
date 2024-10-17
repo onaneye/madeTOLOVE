@@ -5,7 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 const ReviewCard = ({name, position, testimonial, img}) => {
   return (
     <div className="md:flex justify-center gap-7 items-center">
-        <div className="bg-purple-500 p-4 mx-auto lg:mx-0 w-[400px] h-[400px] rounded-lg shadow-lg"></div>
+        <div className="mx-auto lg:mx-0 w-[400px]  rounded-lg shadow-lg">
+            <img src={img} className="w-full  rounded-lg " loading="lazy" alt={name} />
+        </div>
         <div className="flex flex-col justify-center items-center md:items-start md:justify-start p-2">
             <div className="rounded-full bg-purple-500 w-16 h-16 flex justify-center items-center p-3 my-3">
                 <FontAwesomeIcon icon={faQuoteLeft}  className="text-white text-lg"/>

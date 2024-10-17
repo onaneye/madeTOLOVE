@@ -23,8 +23,8 @@ const About = () => {
         whileInView={"show"}
         viewport={{once: false, amount: 0.7}}
       >
-        <p className="text-center lg:text-start uppercase text-sm font-bodoni text-gray-700">About us</p>
-        <h3 className="text-2xl text-center lg:text-start font-bold text-gray-600 lg:text-4xl capitalize">We are made 2 <span className="text-purple-500">love</span></h3>
+        <p className="text-center lg:text-start uppercase text-xs sm:text-sm font-bodoni text-gray-700">About us</p>
+        <h3 className="text-lg sm:text-xl md:text-2xl text-center lg:text-start font-bold text-gray-600 lg:text-4xl uppercase py-5">We are made 2 <span className="text-purple-500">love</span></h3>
         <p className="text-xs text-center lg:text-start font-helvetica lg:text-sm  text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias deleniti consequatur numquam voluptates vitae officiis dolore perspiciatis veritatis id tempora atque nemo minima cumque voluptate reprehenderit perferendis, culpa ea quaerat.</p>
         <Button text="Learn More" icon={faArrowCircleRight} styles='bg-purple-500 py-4 rounded-full px-6 text-white font-helvetica font-normal' />
       </motion.div>

@@ -7,6 +7,7 @@ import OurServices from "./Components/Services";
 import Testimonial from "./Components/Testimonial";
 import Values from "./Components/Values";
 import Footer from "./Components/Footer";
+import Contact from "./Components/Contact";
 
 export default function App() {
   return (
@@ -15,7 +16,7 @@ export default function App() {
       <div className="relative">
       <Hero/>
       </div>
-      <div className="md:absolute w-full transform md:-bottom-16">
+      <div className="md:absolute w-full transform md:-bottom-32">
       <Values/>
       </div>
       <ServiceCard />
@@ -23,6 +24,7 @@ export default function App() {
       <OurServices/>
       <Offers />
       <Testimonial/>
+      <Contact/>
       <Footer />
     </main>
   );

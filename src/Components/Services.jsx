@@ -6,14 +6,14 @@ import { fadeIn } from './variants';
 const OurServices = () => {
   return (
     <div className="flex flex-col items-center justify-center py-10 bg-gray-100 mt-24 bg-fixed">
-      <motion.div className="z-10  md:w-[450px] lg:w-[600px] mb-12"
+      <motion.div className="z-10  md:w-[450px] lg:w-[600px] mb-12 "
         variants={fadeIn('down', 0.2)}
         initial="hidden"
         whileInView={"show"}
         viewport={{once: false, amount: 0.7}}
       >
-        <p className="text-center uppercase text-sm font-bodoni text-gray-700">Our Services</p>
-        <h3 className="text-2xl text-center font-bold text-gray-600 lg:text-4xl capitalize ">The <span className='text-purple-500'>responsibilites</span> that makes us stand out</h3>
+        <p className="text-center uppercase text-xs md:text-sm font-bodoni text-gray-700">Our Services</p>
+        <h3 className="text-xl sm:text-xl md:text-2xl text-center font-bold text-gray-600 lg:text-4xl uppercase py-5">The <span className='text-purple-500'>responsibilites</span> that makes us stand out</h3>
       </motion.div>
       <div className="lg:flex lg:items-center width-container">
         {/* Service Text Left */}

@@ -6,7 +6,7 @@ import { socials } from './constant';
 
 const Footer = () => {
   return (
-    <footer className="bg-purple-900 text-white py-8 mt-12">
+    <footer className="bg-purple-900 text-white py-8 mt-24">
        {/* logo image */}
        <div className='flex justify-start md:justify-center'>
           <img src={logo} className='w-[200px] scale-150' alt="" srcset="" />

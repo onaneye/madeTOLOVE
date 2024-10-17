@@ -12,8 +12,8 @@ const Offers = () => {
          whileInView ={"show"}
          viewport={{once:false, delay: 0.7}}
         >
-            <p className="text-center  uppercase text-sm font-bodoni text-gray-700">Our Offers</p>
-            <h3 className="text-2xl text-center  font-bold text-gray-600 font-bodoni lg:text-4xl capitalize">Check out for <span className='text-purple-500'>pricing</span></h3>
+            <p className="text-center  uppercase text-xs sm:text-sm font-bodoni text-gray-700">Our Offers</p>
+            <h3 className="text-lg sm:text-xl md:2xl text-center  font-bold text-gray-600 font-bodoni lg:text-4xl uppercase py-5">Check out for <span className='text-purple-500'>pricing</span></h3>
         </ motion.div>
         <motion.div className='md:grid md:grid-cols-2 md:gap-2 lg:flex justify-center width-container gap-4 mt-12'
           variants={fadeIn("up", 0.2)}

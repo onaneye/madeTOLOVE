@@ -1,5 +1,13 @@
 import { faShield, faWallet, faCalendar, faGifts, faBasketShopping, faTruck,  } from "@fortawesome/free-solid-svg-icons"
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import deji from '../images/deji.jpeg'
+import benitah from '../images/benitah.jpeg'
+import bukola from '../images/bukola.jpeg'
+
+import bg1 from '../images/heroBg.jpeg'
+import bg2 from '../images/service-img.jpeg'
+import bg3 from '../images/heroBg3.jpg'
+import bg4 from '../images/heroBg4.jpg'
 
 // navlinks
 export const navLinks = [
@@ -41,18 +49,36 @@ export const navLinks = [
 ]
 
 export const heroSlider = [
-    {
-        id: 1,
-        bgImage: "",
-        Heading: "",
-        description:""
-    },
-    {
-        id: 2,
-        bgImage: "",
-        Heading: "",
-        description:""
-    }
+       {
+        id:1,
+        title: "Perfect gift for every ocassion",
+        description: "Make it extra special with custom messages and designs.",
+        imageUrl: bg1,
+        link: "/shop/personalized"
+        },
+        
+        {
+          id:2,
+          title: "Personalized Gifts",
+          description: "Make it extra special with custom messages and designs.",
+          imageUrl: bg2,
+          link: "/shop/personalized"
+        },
+        {
+          id:3,  
+          title: "Luxury Hampers",
+          description: "Pamper your loved ones with premium selections.",
+          imageUrl: bg3,
+          link: "/shop/hampers"
+        },
+        {
+          id:4,  
+          title: "Last-Minute Gifts",
+          description: "Need a gift in a hurry? We've got you covered.",
+          imageUrl: bg4,
+          link: "/shop/last-minute"
+        }
+      
 ] 
 
 export const values = [
@@ -156,24 +182,24 @@ export const servicesData = [
 export const testimonials = [
     {
         id: 1,
-        name: "Alice Johnson",
+        name: "Bukola Johnson",
         position: "CEO, Tech Innovations",
         testimonial: "This service transformed our business! The support team is always ready to help, and the features are exactly what we needed.",
-        img: "https://example.com/images/alice.jpg" // Replace with the actual image URL
+        img: bukola // Replace with the actual image URL
     },
     {
         id: 2,
-        name: "Michael Smith",
+        name: "Deji Akinwunmi",
         position: "Marketing Manager, Creative Agency",
         testimonial: "I can't recommend this enough! The user-friendly interface and powerful tools made our campaigns so much more effective.",
-        img: "https://example.com/images/michael.jpg" // Replace with the actual image URL
+        img: deji // Replace with the actual image URL
     },
     {
         id: 3,
-        name: "Sophia Lee",
+        name: "Benitah  Onans",
         position: "Founder, E-commerce Store",
         testimonial: "An incredible platform! It’s easy to use and packed with features. Our sales have increased significantly since we started using it.",
-        img: "https://example.com/images/sophia.jpg" // Replace with the actual image URL
+        img: benitah // Replace with the actual image URL
     }
 ];
 

@@ -30,8 +30,8 @@ const Testimonial = () => {
               whileInView ={"show"}
               viewport={{once:false, delay: 0.7}}
             >
-                <p className="text-center  uppercase text-sm font-bodoni text-gray-700">Testimonials</p>
-                <h3 className="text-2xl text-center  font-bold text-gray-600 font-bodoni lg:text-4xl capitalize">Over <span className='text-purple-500'>1000+</span> people trust us</h3>
+                <p className="text-center  uppercase text-xs sm:text-sm font-bodoni text-gray-700">Testimonials</p>
+                <h3 className="text-lg sm:text-xl md:text-2xl text-center  font-bold text-gray-600 font-bodoni lg:text-4xl uppercase py-5">Over <span className='text-purple-500'>1000+</span> people trust us</h3>
             </motion.div>
             <div className="container mx-auto lg:w-full  relative overflow-hidden">
             <div
