@@ -22,7 +22,7 @@ const Testimonial = () => {
   }, [testimonialData.length]);
 
   return (
-    <div className='bg-gray-100 mt-24'>
+    <section className='bg-gray-100 mt-24'id='textimonials'>
         <div className='width-container flex flex-col justify-evenly gap-24'>
             <motion.div className="flex flex-col justify-center items-center py-6"
               variants={fadeIn("down", 0.2)}
@@ -46,7 +46,7 @@ const Testimonial = () => {
             </div>
     </div>
         </div>
-    </div>
+    </section>
   )
 }
 

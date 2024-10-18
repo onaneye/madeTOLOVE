@@ -4,6 +4,7 @@ import serviceImg2 from './service-img2.jpeg';
 import serviceImg3 from './service-img3.jpeg';
 
 import personService from './person-service.png'
+import personService2 from './person-service2.png'
 
 // About image
 import box from './box.png'
@@ -28,6 +29,7 @@ export {
     skin2,
     logo2,
     personService,
+    personService2,
     deji,
     benitah,
     bukola

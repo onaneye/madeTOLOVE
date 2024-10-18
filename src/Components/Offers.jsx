@@ -5,7 +5,7 @@ import { fadeIn } from './variants'
 
 const Offers = () => {
   return (
-    <div className='mt-24'>
+    <section className='mt-24' id='pricing'>
         <motion.div className="flex flex-col justify-center items-center px-3"
          variants={fadeIn("down", 0.2)}
          initial="hidden"
@@ -26,7 +26,7 @@ const Offers = () => {
                 <PriceCard {...item} />
             ))}
         </ motion.div>
-    </div>
+    </section>
   )
 }
 

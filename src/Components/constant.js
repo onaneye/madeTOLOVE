@@ -136,72 +136,74 @@ export const servicesData = [
   export const pricing = [
     {
         id: 1,
-        tag: "Basic",
-        price: 19.99,
-        description: "A basic plan to get you started with essential features.",
+        tag: "Starter",
+        price: 29.99,
+        description: "Perfect for simple and thoughtful gifts to show your love.",
         features: [
-            "1 Website",
-            "10 GB Storage",
-            "24/7 Support",
-            "Basic Analytics"
+            "1 Personalized Gift",
+            "Custom Packaging",
+            "Standard Delivery",
+            "Personalized Message"
         ],
         active: false
     },
     {
         id: 2,
-        tag: "Standard",
-        price: 39.99,
-        description: "A standard plan with more features for growing businesses.",
+        tag: "Deluxe",
+        price: 59.99,
+        description: "Ideal for making a lasting impression with more curated gifts.",
         features: [
-            "5 Websites",
-            "50 GB Storage",
-            "24/7 Support",
-            "Advanced Analytics",
-            "Email Marketing Tools"
+            "3 Curated Gifts",
+            "Premium Packaging",
+            "Fast Delivery",
+            "Personalized Message",
+            "Gift Wrapping Service"
         ],
         active: true,
     },
     {
         id: 3,
-        tag: "Premium",
-        price: 79.99,
-        description: "A premium plan with all the features for maximum performance.",
+        tag: "Luxury",
+        price: 99.99,
+        description: "A premium plan offering the best, most luxurious gift experience.",
         features: [
-            "Unlimited Websites",
-            "200 GB Storage",
-            "Priority Support",
-            "Comprehensive Analytics",
-            "SEO Tools",
-            "Email Marketing Tools"
+            "Unlimited Gift Selection",
+            "Luxury Packaging",
+            "Same-Day Delivery",
+            "Personalized Message & Video",
+            "Exclusive Gift Wrapping",
+            "Priority Customer Support"
         ],
         active: false,
     }
 ];
+
 
 // testimonials
 export const testimonials = [
     {
         id: 1,
         name: "Bukola Johnson",
-        position: "CEO, Tech Innovations",
-        testimonial: "This service transformed our business! The support team is always ready to help, and the features are exactly what we needed.",
+        position: "Loyal Customer",
+        testimonial: "Made to Love made gifting so effortless! I didn’t know what to get my wife for our anniversary, but they took care of everything. She loved the surprise!",
         img: bukola // Replace with the actual image URL
     },
     {
         id: 2,
         name: "Deji Akinwunmi",
-        position: "Marketing Manager, Creative Agency",
-        testimonial: "I can't recommend this enough! The user-friendly interface and powerful tools made our campaigns so much more effective.",
+        position: "Satisfied Customer",
+        testimonial: "The perfect solution for last-minute gifts! They picked out the perfect present, and it was delivered beautifully. Highly recommend!",
         img: deji // Replace with the actual image URL
     },
     {
         id: 3,
-        name: "Benitah  Onans",
-        position: "Founder, E-commerce Store",
-        testimonial: "An incredible platform! It’s easy to use and packed with features. Our sales have increased significantly since we started using it.",
+        name: "Benitah Onans",
+        position: "Happy Customer",
+        testimonial: "Made to Love is my go-to for special occasions. They always find the perfect gift, and I love the personalized touch they add!",
         img: benitah // Replace with the actual image URL
     }
 ];
+
 
 export const socials =[
     {
