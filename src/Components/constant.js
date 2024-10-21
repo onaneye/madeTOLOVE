@@ -4,7 +4,7 @@ import deji from '../images/deji.jpeg'
 import benitah from '../images/benitah.jpeg'
 import bukola from '../images/bukola.jpeg'
 
-import bg1 from '../images/heroBg.jpeg'
+import bg1 from '../images/service-img3.jpeg'
 import bg2 from '../images/service-img.jpeg'
 import bg3 from '../images/heroBg3.jpg'
 import bg4 from '../images/heroBg4.jpg'
@@ -13,37 +13,37 @@ import bg4 from '../images/heroBg4.jpg'
 export const navLinks = [
     {
         label: "Home",
-        link: "£home",
+        link: "#home",
         active: true
     },
     {
         label: "About",
-        link: "about",
+        link: "#about",
         active: false
     },
     {
         label: "Services",
-        link: "£services",
+        link: "#services",
         active: false
     },
     {
         label: "Pricing",
-        link: "£offers",
+        link: "#pricing",
         active: false
     },
     {
         label: "Testimonials",
-        link: "£testimonials",
+        link: "#testimonials",
         active: false
     },
     {
         label: "Contact us",
-        link: "contact",
+        link: "#contact",
         active: false
     },
     {
         label: "Blog",
-        link: "£blog",
+        link: "#blog",
         active: false
     }
 ]
@@ -51,32 +51,32 @@ export const navLinks = [
 export const heroSlider = [
        {
         id:1,
-        title: "Perfect gift for every ocassion",
-        description: "Make it extra special with custom messages and designs.",
+        title: "Every Gift, A Canvas Of Love.",
+        description: "Beat the rhythm of love to your special someone through bespoke gifts.",
         imageUrl: bg1,
-        link: "/shop/personalized"
+        link: "#about"
         },
         
         {
           id:2,
-          title: "Personalized Gifts",
-          description: "Make it extra special with custom messages and designs.",
+          title: "Perfect Gift For Every Occasion.",
+          description: "Make every occasion special with an ideal present.",
           imageUrl: bg2,
-          link: "/shop/personalized"
+          link: "#about"
         },
         {
           id:3,  
-          title: "Luxury Hampers",
-          description: "Pamper your loved ones with premium selections.",
+          title: "Made Just For Them",
+          description: "Diffuse your love with a gift that speaks their heart",
           imageUrl: bg3,
-          link: "/shop/hampers"
+          link: "#about"
         },
         {
           id:4,  
-          title: "Last-Minute Gifts",
-          description: "Need a gift in a hurry? We've got you covered.",
+          title: " You Are Worthy Of Love",
+          description: "Pamper yourself with our ready-made love bundles..",
           imageUrl: bg4,
-          link: "/shop/last-minute"
+          link: "#about"
         }
       
 ] 
@@ -110,20 +110,20 @@ export const servicesData = [
     {
       id: 1,
       icon: faGifts,
-      title: "Personalized Gifts",
-      description: "Create unique gifts tailored to your loved ones. Choose from custom engravings, photos, and special messages to make your gift truly one-of-a-kind."
+      title: "Ready-made Love Bundles",
+      description: "Choose from our beautifully crafted packages that are carefully curated to spread love and joy."
     },
     {
       id: 2,
       icon: faBasketShopping,
-      title: "Gift Baskets",
-      description: "Explore a variety of curated gift baskets filled with gourmet treats, spa essentials, or themed items. Perfect for any occasion, from birthdays to holidays."
+      title: "GPersonalized Gift Selection",
+      description: "We will help you curate a selection of thoughtful gifts tailored to your loved one's unique interests and preferences."
     },
     {
       id: 3,
       icon: faTruck,
-      title: "Same-Day Delivery",
-      description: "Need a gift in a hurry? Our same-day delivery service ensures your surprise arrives on time, no matter the occasion. Just select, order, and relax!"
+      title: "Timely Delivery",
+      description: "We ensure your gift arrives at your loved one's doorstep exactly when you want it to, so you can focus on the thought that counts."
     },
     {
       id: 4,

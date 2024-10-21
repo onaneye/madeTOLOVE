@@ -34,7 +34,7 @@ const Hero = () => {
         <meta property="og:description" content="Surprise your loved ones with the perfect gift from Made to Love. We handle everything—from selecting the gift to delivering it." />
         <meta property="og:image" content={carousel[currentIndex]?.imageUrl || 'default_image_url.jpg'} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://madetolove.netlify.app/" />
+        <meta property="og:url" content="https://www.madetolove.netlify.app/" />
         <link rel="preload" as="image" href={carousel[0]?.imageUrl || 'default_image_url.jpg'} />
 
         {/* JSON-LD for Schema Markup */}
@@ -44,7 +44,7 @@ const Hero = () => {
             "@context": "http://schema.org",
             "@type": "Organization",
             "name": "Made to Love",
-            "url": "https://madetolove.netlify.app",
+            "url": "https://www.madetolove.netlify.app",
             "logo": "https://www.madetolove.com/logo.jpg",
             "sameAs": [
               "https://www.facebook.com/madetolove",
@@ -66,8 +66,8 @@ const Hero = () => {
           <div className='bg-cover bg-center min-w-full bg-no-repeat h-screen lg:mt-24' style={{ backgroundImage: `url(${slide.imageUrl})` }} key={slide.id}>
             <div className="inset-0 bg-purple-gradient h-full object-cover">
               <div className='width-container h-screen md:h-[80vh] flex flex-col justify-center items-start'>
-                <div className='mx-3 sm:w-[550px] xl:[600px]'>
-                  <motion.h2 className='text-2xl sm:text-4xl lg:text-4xl xl:text-5xl text-white text-start font-bold'
+                <div className='mx-3 sm:w-[500px] xl:max-w-1/4 mt-24'>
+                  <motion.h2 className='text-2xl sm:text-4xl xl:text-5xl text-white text-start font-bold '
                     variants={fadeIn('down', 0.2)}
                     initial="hidden"
                     whileInView={"show"}

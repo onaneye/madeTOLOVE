@@ -6,7 +6,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
   return (
-    <section className='mt-24'>
+    <section className='mt-24' id='contact'>
             <div className='width-container'>
             <motion.div className="flex flex-col justify-center items-center px-3"
                 variants={fadeIn("down", 0.2)}

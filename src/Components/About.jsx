@@ -39,7 +39,9 @@ const About = () => {
             We are made 2 <span className="text-purple-500">love</span>
           </h3>
           <p className="text-xs text-center lg:text-start font-helvetica lg:text-sm text-gray-600">
-            Made to Love is a gifting service designed to take the stress out of choosing the perfect gift. We specialize in personalized, hand-picked presents that are delivered directly to your loved ones. Whether for birthdays, anniversaries, or just because, we ensure that your thoughtful gift makes a lasting impression.
+          Who doesn't desire a relationship where love is expressed to its peak? At Made To Love, we believe that thoughtful gifts have the power to spark a chain reaction of love, deepening connections and making relationships even more beautiful. For this reason, we're committed to helping you find the perfect gift that speaks your heart to that special someone.
+
+          <strong className="text-purple-500">With every package, you get more love.</strong>
           </p>
           <Button
             text="Learn More"
