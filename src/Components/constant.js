@@ -116,7 +116,7 @@ export const servicesData = [
     {
       id: 2,
       icon: faBasketShopping,
-      title: "GPersonalized Gift Selection",
+      title: "Personalized Gift Selection",
       description: "We will help you curate a selection of thoughtful gifts tailored to your loved one's unique interests and preferences."
     },
     {
