@@ -17,7 +17,7 @@ const OurServices = () => {
         >
           <p className="text-center uppercase text-xs md:text-sm font-bodoni text-gray-700">Our Services</p>
           <h3 className="text-xl sm:text-xl md:text-2xl text-center font-bold text-gray-600 lg:text-4xl uppercase py-5">
-          Our deliverables that make your that make your <span className="text-purple-500">gift-giving</span>    experience exceptional include
+          Our deliverables that make your  <span className="text-purple-500">gift-giving</span>    experience exceptional include
           </h3>
         </motion.div>
 
