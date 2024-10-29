@@ -10,7 +10,6 @@ const About = () => {
     <section id="about">
       {/* SEO and Meta Tags for About Section */}
       <Helmet>
-        <title>About Made to Love | Gifting Service for Loved Ones</title>
         <meta name="description" content="Learn more about Made to Love, the gifting service that helps you find and deliver the perfect gifts to your loved ones. We take care of everything, from gift selection to delivery." />
         <meta name="keywords" content="gifting service, personalized gifts, gift delivery, Made to Love, surprise gifts" />
         <meta property="og:title" content="About Made to Love" />

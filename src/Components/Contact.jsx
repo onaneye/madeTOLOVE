@@ -18,8 +18,8 @@ const Contact = () => {
             <h3 className="text-lg sm:text-xl md:text-2xl text-center  font-bold text-gray-600 font-bodoni lg:text-4xl uppercase py-5">we are just a <span className='text-purple-500'>Dm</span> Away</h3>
         </ motion.div>
                 <div className='md:flex justify-center gap-2'>
-                    <Button icon={faWhatsapp} text="Send a Message" styles="bg-green-500 text-white py-4 px-6  hover:bg-green-700 rounded-full shadow-lg" link="https://wa.me/+2347067158130" />
-                    <Button icon={faPhone} text="Call us" styles="bg-purple-500 text-white py-4 px-6  hover:bg-purple-900 rounded-full shadow-lg" link={"tel:+2347067158130"} />
+                    <Button icon={faWhatsapp} text="Send a Message" styles="bg-green-500 text-white py-4 px-6  hover:bg-green-700 rounded-full shadow-lg" link="https://wa.me/+234 7040085037" />
+                    <Button icon={faPhone} text="Call us" styles="bg-purple-500 text-white py-4 px-6  hover:bg-purple-900 rounded-full shadow-lg" link={"tel:+2347040085037"} />
                 </div>
             </div>
     </section>

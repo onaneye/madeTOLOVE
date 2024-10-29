@@ -6,12 +6,17 @@ import {navLinks} from '../Components/constant';
 import { useState } from 'react';
 
 const Navbar = () => {
+  const [navbarActive, setNavbarActive] = useState("Home")
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(prev => !prev);
   };
+  const toggleNav = (label)=>{
+    setNavbarActive(label)
+  }
 
+  const height = window.innerHeight
   return (
     <div className='py-2 fixed bg-white z-50 w-full shadow-lg'>
       <nav className="width-container  flex justify-between items-center border-b-2 ">
@@ -23,7 +28,9 @@ const Navbar = () => {
         {/* Navigation Links */}
         <ul className='hidden lg:flex items-center justify-between gap-8'>
           {navLinks.map((item) => (
-            <li key={item.id} className='text-purple-500 font-helvetica text-[16px] hover:bg-purple-500 hover:text-white p-2 rounded-full'>
+            <li key={item.id} className={`text-purple-500 font-helvetica text-[16px] hover:bg-purple-500 hover:text-white p-2 rounded-full ${navbarActive === item.label ? "bg-purple-500 text-white": ""}`}
+              onClick={()=> toggleNav(item.label)}
+            >
               <a href={item.link}>
                 {item.label}
               </a>
@@ -36,7 +43,9 @@ const Navbar = () => {
          className='hidden lg:block px-8 py-2 text-white bg-purple-500 font-bold rounded-full font-helvetica text-sm cursor-pointer'
         
         >
-        <FontAwesomeIcon icon={faPhone}/>  Call Us
+          <a href="tel:+2347040085037">
+           <FontAwesomeIcon icon={faPhone}/>  Call Us
+           </a>
         </button>
 
         <div className='lg:hidden mt-4 mx-6'  onClick={toggleMobileMenu}>

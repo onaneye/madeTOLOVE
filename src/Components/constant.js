@@ -41,11 +41,6 @@ export const navLinks = [
         link: "#contact",
         active: false
     },
-    {
-        label: "Blog",
-        link: "#blog",
-        active: false
-    }
 ]
 
 export const heroSlider = [
@@ -82,8 +77,13 @@ export const heroSlider = [
 ] 
 
 export const values = [
+
+   
+
+
+
     {
-        id:1,
+        id:4,
         text: "Premium Service",
         icon: faShield
     },
@@ -134,10 +134,11 @@ export const servicesData = [
   ]
 
   export const pricing = [
+
     {
         id: 1,
         tag: "Starter",
-        price: 29.99,
+        price: 2999,
         description: "Perfect for simple and thoughtful gifts to show your love.",
         features: [
             "1 Personalized Gift",
@@ -149,33 +150,102 @@ export const servicesData = [
     },
     {
         id: 2,
-        tag: "Deluxe",
-        price: 59.99,
-        description: "Ideal for making a lasting impression with more curated gifts.",
+        tag: "Sweet Moments",
+        price: 15000,
+        description: "A sweet bundle of treats to share memorable moments.",
         features: [
-            "3 Curated Gifts",
-            "Premium Packaging",
-            "Fast Delivery",
-            "Personalized Message",
-            "Gift Wrapping Service"
+            "Assorted Candies",
+            "Mini Chocolate Box",
+            "Love Note",
+            "Small Teddy Bear",
+            "Decorative Bag"
         ],
-        active: true,
+        active: true
     },
     {
         id: 3,
-        tag: "Luxury",
-        price: 99.99,
-        description: "A premium plan offering the best, most luxurious gift experience.",
+        tag: "Love Luxe",
+        price: 20000,
+        description: "A luxurious yet affordable choice for spreading love and joy.",
         features: [
-            "Unlimited Gift Selection",
-            "Luxury Packaging",
-            "Same-Day Delivery",
-            "Personalized Message & Video",
-            "Exclusive Gift Wrapping",
-            "Priority Customer Support"
+            "Yoghurt",
+            "Roll-on",
+            "Chocolate",
+            "Christmas Wishes Card",
+            "Gift Bag"
         ],
-        active: false,
-    }
+        active: false
+    },
+    {
+        id: 4,
+        tag: "Love Luxe (Premium)",
+        price: 25000,
+        description: "A premium gifting option with sweet treats and festive wishes.",
+        features: [
+            "6 Cupcakes",
+            "Wine",
+            "Chocolate",
+            "Christmas Wishes Card",
+            "Packaging Box"
+        ],
+        active: true
+    },
+     
+    {
+        id: 5,
+        tag: "Elegant Touch",
+        price: 40000,
+        description: "Sophisticated gifts with an elegant touch.",
+        features: [
+            "Luxury Perfume",
+            "Silk Scarf",
+            "Designer Candle",
+            "Greeting Card",
+            "Gift Box"
+        ],
+        active: false
+    },
+   
+    {
+        id: 6,
+        tag: "Sapphire Woman",
+        price: 50500,
+        description: "An elegant gift set for the sophisticated woman in your life.",
+        features: [
+            "Mini-set Nail Cutter",
+            "Vacuum Set Flask",
+            "Hair Straightener",
+            "Journal",
+            "Facemask",
+            "Lip Gloss",
+            "Pad",
+            "Pocket Perfume",
+            "Chocolate",
+            "Christmas Wishes Card",
+            "Packaging Box"
+        ],
+        active: true
+    },
+    {
+        id: 7,
+        tag: "Sapphire Man",
+        price: 50500,
+        description: "A classy and practical gift for the modern man.",
+        features: [
+            "Roll-on",
+            "Wine",
+            "Clipper",
+            "Belt",
+            "Cufflinks",
+            "Box",
+            "Christmas Wishes Card",
+            "Journal",
+            "Groundnut"
+        ],
+        active: false
+    },
+    
+   
 ];
 
 

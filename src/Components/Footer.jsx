@@ -24,8 +24,8 @@ const Footer = () => {
           <div className="w-full md:w-1/4 mb-6">
             <h3 className="text-xl font-semibold mb-4 text-white font-poppins-bold">Contact Us</h3>
             <ul className="space-y-2 font-Josefin_Sans">
-              <li className="text-sm">1234 madetolove St, Photo City, PC 12345</li>
-              <li className="text-sm">Phone: (123) 456-7890</li>
+              <li className="text-sm">12 Adeoke street, Off Navy School, Ota, Ogun State</li>
+              <li className="text-sm">Phone: +234 7040 085 037</li>
               <li className="text-sm">Email: info@madetolove.com</li>
             </ul>
           </div>
