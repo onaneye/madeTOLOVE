@@ -27,7 +27,7 @@ const Offers = () => {
           viewport={{ once: false, delay: 0.7 }}
        >
         {pricing.map((item, index) => (
-          <div key={item.id} className={`${index !== 0 ? 'mt-5' : ''}`}>
+          <div key={item.id} className={`${index !== 0 ? 'mt-5' : ''} flex justify-center`}>
             <PriceCard {...item} />
           </div>
         ))}
