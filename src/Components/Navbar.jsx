@@ -16,7 +16,7 @@ const Navbar = () => {
     setNavbarActive(label)
   }
 
-  const height = window.innerHeight
+ 
   return (
     <div className='py-2 fixed bg-white z-50 w-full shadow-lg'>
       <nav className="width-container  flex justify-between items-center border-b-2 ">
