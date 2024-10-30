@@ -138,7 +138,7 @@ export const servicesData = [
     {
         id: 1,
         tag: "Starter",
-        price: 2999,
+        price: "2,999",
         description: "Perfect for simple and thoughtful gifts to show your love.",
         features: [
             "1 Personalized Gift",
@@ -151,7 +151,7 @@ export const servicesData = [
     {
         id: 2,
         tag: "Sweet Moments",
-        price: 15000,
+        price: "15,000",
         description: "A sweet bundle of treats to share memorable moments.",
         features: [
             "Assorted Candies",
@@ -160,12 +160,12 @@ export const servicesData = [
             "Small Teddy Bear",
             "Decorative Bag"
         ],
-        active: true
+        active: false
     },
     {
         id: 3,
         tag: "Love Luxe",
-        price: 20000,
+        price: "20,000",
         description: "A luxurious yet affordable choice for spreading love and joy.",
         features: [
             "Yoghurt",
@@ -174,12 +174,12 @@ export const servicesData = [
             "Christmas Wishes Card",
             "Gift Bag"
         ],
-        active: false
+        active: true
     },
     {
         id: 4,
         tag: "Love Luxe (Premium)",
-        price: 25000,
+        price: "25,000",
         description: "A premium gifting option with sweet treats and festive wishes.",
         features: [
             "6 Cupcakes",
@@ -188,13 +188,13 @@ export const servicesData = [
             "Christmas Wishes Card",
             "Packaging Box"
         ],
-        active: true
+        active: false
     },
      
     {
         id: 5,
         tag: "Elegant Touch",
-        price: 40000,
+        price: "40,000",
         description: "Sophisticated gifts with an elegant touch.",
         features: [
             "Luxury Perfume",
@@ -209,7 +209,7 @@ export const servicesData = [
     {
         id: 6,
         tag: "Sapphire Woman",
-        price: 50500,
+        price: "50,500",
         description: "An elegant gift set for the sophisticated woman in your life.",
         features: [
             "Mini-set Nail Cutter",
@@ -229,7 +229,7 @@ export const servicesData = [
     {
         id: 7,
         tag: "Sapphire Man",
-        price: 50500,
+        price: "50,500",
         description: "A classy and practical gift for the modern man.",
         features: [
             "Roll-on",

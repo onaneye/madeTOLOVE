@@ -18,17 +18,21 @@ const Offers = () => {
           Check out for <span className='text-purple-500'>pricing</span>
         </h3>
       </motion.div>
-      <motion.div
-        className='md:grid md:grid-cols-2 md:gap-2 lg:grid-cols-4 width-container items-center gap-4 mt-12'
-        variants={fadeIn("up", 0.2)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: false, delay: 0.7 }}
-      >
-        {pricing.map((item) => (
-          <PriceCard key={item.id} {...item} />
+      <div className='p-5 md:p-10'>
+        <motion.div
+          className='columns-1 sm:columns-2 lg:columns-4 width-container gap-2 mt-12'
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, delay: 0.7 }}
+       >
+        {pricing.map((item, index) => (
+          <div key={item.id} className={`${index !== 0 ? 'mt-5' : ''}`}>
+            <PriceCard {...item} />
+          </div>
         ))}
-      </motion.div>
+        </motion.div>
+      </div>
     </section>
   );
 };
